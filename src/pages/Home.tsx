@@ -1,6 +1,8 @@
 import Layout from '../components/layout/Layout';
 import AboutRestaurant from '../components/sections/AboutRestaurant';
-import FeaturedDishes from '../components/sections/FeaturedDishes';
+import FeaturedMenu from '../components/sections/FeaturedMenu';
+import ChefSection from '../components/sections/ChefSection';
+import Testimonials from '../components/sections/Testimonials';
 import WhyChooseUs from '../components/sections/WhyChooseUs';
 
 function Home() {
@@ -8,7 +10,9 @@ function Home() {
     <Layout>
       <main>
         <AboutRestaurant />
-        <FeaturedDishes />
+        <FeaturedMenu />
+        <ChefSection />
+        <Testimonials />
         <WhyChooseUs />
       </main>
     </Layout>
